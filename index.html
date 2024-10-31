@@ -1,27 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="ar">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MapkoVid</title>
-  <style type="text/css" media="all">
-    body{background-color: #232323;}.c57765434{background-color: #989898;color: whitesmoke;border-radius:5px;padding: 20px;}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1318256060623854" crossorigin="anonymous"></script>
-<!-- ad -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-1318256060623854"
-     data-ad-slot="2287417913"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-  <footer class="c57765434">MapkoVid by MapkoX
-  <br>contact with us
-  <br><a href="https://www.facebook.com/ibrahim.lemon.5">Facebook</a></footer>
+  <!-- splash screen -->
+  
+    <div id="splash-screen">
+      <img style="width: 20%;" src="images/logo.jpg" >
+      <h1>MapkoX</h1>
+    </div>
+    
+  <!-- pages -->
+    <div id="content" style="display: none;">
+        <!-- home page -->
+          <header>
+            <h2>Anime Cat</h2>
+              <nav>
+                <button class="btns">home page</button>
+                <button class="btns">anime</button>
+                <button class="btns">character</button>
+                <button class="btns">menu</button>
+              </nav>
+              
+          </header>
+          
+          <main>
+            <!-- news -->
+            <section id="news"></section>
+            
+            <!-- anime rating -->
+            <section id="anime_rating"></section>
+            
+            <!-- character rating -->
+            <section id="character_rating"></section>
+          </main>
+          
+          <footer>
+            Made by MapkoX&copy;<hr>
+            <a href="">Facebook</a><br>
+            <a href="">TikTok</a><br>
+            <a href="">YouTube</a><br>
+            <a href="">Telegram</a><br>
+            <a href="">Instagram</a>
+            <hr>
+            كل الحقوق محفوظة
+          </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/data.js"></script>
 </body>
 </html>
