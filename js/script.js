@@ -11,7 +11,7 @@ setInterval(function refresh() {
   refresh_news();
   anime_rating();
   character_rating();
-},2000);
+},10000);
 
 function refresh_news() {
   var news=document.getElementById('news');
